@@ -52,7 +52,7 @@ get_builddir() {
 }
 
 # This is the expected output location, from the release build container
-RELEASE_PLATFORM=linux-amd64-release-go1.7.5
+RELEASE_PLATFORM=linux-amd64-release-go1.10.3
 
 NO_CACHE_ARGS=""
 if $CLEAN_BUILD; then

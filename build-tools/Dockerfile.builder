@@ -4,7 +4,7 @@ FROM python:2.7-alpine3.7
 # at https://github.com/docker-library/golang/tree/f19fa68b57e811315e95091bb6b78c1e2f43d14f
 RUN apk add --no-cache ca-certificates
 
-ENV GOLANG_VERSION 1.7.5
+ENV GOLANG_VERSION 1.10.3
 ENV GOLANG_SRC_URL https://golang.org/dl/go$GOLANG_VERSION.src.tar.gz
 ENV GOLANG_SRC_SHA256 4e834513a2079f8cbbd357502cccaac9507fd00a1efe672375798858ff291815
 

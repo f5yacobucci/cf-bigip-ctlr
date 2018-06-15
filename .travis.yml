@@ -7,7 +7,7 @@ git:
   depth: false
 
 before_install:
-  - docker pull golang:1.7.5
+  - docker pull golang:1.10.3
   - docker pull f5devcentral/containthedocs
 
 script:
