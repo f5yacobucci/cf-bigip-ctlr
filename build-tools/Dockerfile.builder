@@ -6,7 +6,7 @@ RUN apk add --no-cache ca-certificates
 
 ENV GOLANG_VERSION 1.10.3
 ENV GOLANG_SRC_URL https://golang.org/dl/go$GOLANG_VERSION.src.tar.gz
-ENV GOLANG_SRC_SHA256 4e834513a2079f8cbbd357502cccaac9507fd00a1efe672375798858ff291815
+ENV GOLANG_SRC_SHA256 567b1cc66c9704d1c019c50bef946272e911ec6baf244310f87f4e678be155f2
 
 # https://golang.org/issue/14851
 COPY no-pic.patch /
