@@ -25,8 +25,8 @@ RUN apk add --no-cache --virtual .build-deps \
 	tar -C /usr/local -xzf golang.tar.gz && \
 	rm golang.tar.gz && \
 	cd /usr/local/go/src && \
-	patch -p2 -i /no-pic.patch && \
-	patch -p2 -i /17847.patch && \
+//	patch -p2 -i /no-pic.patch && \
+//	patch -p2 -i /17847.patch && \
 	./make.bash && \
 	rm -rf /*.patch && \
 	apk del .build-deps
